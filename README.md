@@ -6,3 +6,13 @@ youtube ml src code from list https://www.youtube.com/playlist?list=PLKLrLiXLSmX
 机器学习已广泛应用于数据挖掘、计算机视觉、自然语言处理、生物特征识别、搜索引擎、医学诊断、检测信用卡欺诈、证券市场分析、DNA序列测序、语音和手写识别、战略游戏和机器人等领域。
 
 此频道是由 YouTube 的视频发现系统自动生成的。
+
+1. [done] [Machine Learning Recipes with Josh Gordon](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+2. [undo] [Practical Machine Learning Tutorial with Python](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+3. [done] [Machine Learning for Hackers](https://www.youtube.com/playlist?list=PL2-dafEMk2A4ut2pyv0fSIXqOzXtBGkLj)
+5. [done] [Machine Learning with Text in scikit-learn (PyCon 2016)](https://www.youtube.com/watch?v=ZiKMIuYidY0)
+7. [pass] [Machine Learning with Python](https://www.youtube.com/playlist?list=PL-XeOa5hMEYz7xMckkUL8w2EKzM3TDrON)
+11. [pass] [Machine Learning with Text in scikit-learn (PyData DC 2016)](https://www.youtube.com/watch?v=vTaxdJ6VYWE&index=11&list=PLKLrLiXLSmXFvfxsp99I9kaO4fIRH3_WS)
+22. [undo] [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL)
+32. [undo] [Introduction to Machine Learning on Apache Spark MLlib](https://www.youtube.com/watch?v=qKYpMPPL-fo)
+41. pass
