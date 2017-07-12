@@ -11,6 +11,9 @@
 root_path = 'C:\\Users\\BaoQiang\\Desktop\\'
 
 
+def tmp():
+    pass
+
 def run():
     with open('{}/1.txt'.format(root_path), 'r', encoding='utf-8') as f, \
             open('{}/2.txt'.format(root_path), 'w', encoding='utf-8') as fw:
@@ -30,7 +33,8 @@ def run():
 
 
 def main():
-    run()
+    # run()
+    tmp()
 
 
 if __name__ == '__main__':
