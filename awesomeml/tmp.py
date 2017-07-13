@@ -9,10 +9,14 @@
 """
 
 root_path = 'C:\\Users\\BaoQiang\\Desktop\\'
+import tensorflow as tf
 
 
 def tmp():
-    pass
+    a = tf.constant(32)
+    with tf.Session() as sess:
+        print(sess.run(a))
+
 
 def run():
     with open('{}/1.txt'.format(root_path), 'r', encoding='utf-8') as f, \
