@@ -106,7 +106,7 @@ class MyMeanShift:
             self.classifications[classification].append(featureset)
 
     def predict(self, data):
-        distances = [np.linalg.norm(featureset - self.centers[center]) for center in self.centers]
+        distances = [np.linalg.norm(data - self.centers[center]) for center in self.centers]
         classification = distances.index(min(distances))
         return classification
 
