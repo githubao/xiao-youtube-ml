@@ -9,18 +9,12 @@
 """
 
 import tensorflow as tf
-import numpy as np
-from tensorflow.python.ops import rnn, rnn_cell
-import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
+from tensorflow.python.ops import rnn, rnn_cell
+
 from awesomeml.pth import FILE_PATH
-import numpy as np
 
 mnist = input_data.read_data_sets(FILE_PATH, one_hot=True)
-
-n_nodes_l1 = 50
-n_nodes_l2 = 50
-n_nodes_l3 = 50
 
 n_classes = 10
 batch_size = 128
