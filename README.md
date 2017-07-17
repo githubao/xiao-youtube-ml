@@ -8,7 +8,7 @@ youtube ml src code from list https://www.youtube.com/playlist?list=PLKLrLiXLSmX
 此频道是由 YouTube 的视频发现系统自动生成的。
 
 1. [done] [Machine Learning Recipes with Josh Gordon](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-2. [undo] [Practical Machine Learning Tutorial with Python](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+2. [done] [Practical Machine Learning Tutorial with Python](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
 3. [done] [Machine Learning for Hackers](https://www.youtube.com/playlist?list=PL2-dafEMk2A4ut2pyv0fSIXqOzXtBGkLj)
 5. [done] [Machine Learning with Text in scikit-learn (PyCon 2016)](https://www.youtube.com/watch?v=ZiKMIuYidY0)
 7. [pass] [Machine Learning with Python](https://www.youtube.com/playlist?list=PL-XeOa5hMEYz7xMckkUL8w2EKzM3TDrON)

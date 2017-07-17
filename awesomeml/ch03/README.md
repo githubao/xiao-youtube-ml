@@ -1,0 +1,8 @@
+- tokenize
+- stop words
+- stemming(词干)
+- part of speech tagging
+- chunking(合并词语)
+- chinking(去掉词语)
+- named entity recognition
+- lemmatizing(词形还原)
