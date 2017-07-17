@@ -8,17 +8,19 @@
 @time: 2017/7/17 13:53
 """
 
-import numpy as np
-import cv2
 import os
 from random import shuffle
-from tqdm import tqdm
-from awesomeml.pth import FILE_PATH
 
+import cv2
+import numpy as np
 import tflearn
 from tflearn.layers.conv import conv_2d, max_pool_2d
 from tflearn.layers.core import input_data, dropout, fully_connected
 from tflearn.layers.estimator import regression
+from tqdm import tqdm
+import matplotlib.pyplot as plt
+
+from awesomeml.pth import FILE_PATH
 
 TRAIN_DIR = '{}/dogs_vs_cats/train/train'.format(FILE_PATH)
 TEST_DIR = '{}/dogs_vs_cats/test/test'.format(FILE_PATH)
@@ -99,6 +101,47 @@ def run():
               snapshot_step=500, show_metric=True, run_id=MODEL_NAME)
 
     model.save(MODEL_NAME)
+
+    return model
+
+
+def test():
+    model = run()
+    model = model.load(MODEL_NAME)
+
+    test_data = process_test_data()
+    fig = plt.figure()
+
+    for num, data in enumerate(test_data[:12]):
+        img_num = data[1]
+        img_data = data[0]
+
+        y = fig.add_subplot(3, 4, num + 1)
+        data = img_data.reshape(IMAGE_SIZE, IMAGE_SIZE, 1)
+
+        model_out = model.predict([data])[0]
+        if np.argmax(model_out) == 1:
+            str_label = 'Dog'
+        else:
+            str_label = 'Cat'
+
+        y.imshow(orig, cmap='gray')
+        plt.title(str_label)
+        y.axes.get_xasis().set_vasible(True)
+        y.axes.get_yasis().set_vasible(True)
+
+    plt.show()
+
+    with open('submission-file.csv', 'w', encoding='utf-8') as fw:
+        fw.write('id,label\n')
+        for data in tqdm(test_data):
+            img_num = data[1]
+            img_data = data[0]
+
+            data = img_data.reshape(IMAGE_SIZE, IMAGE_SIZE, 1)
+
+            model_out = model.predict([data])[0]
+            fw.write('{},{}\n'.format(img_num, model_out[1]))
 
 
 def main():
