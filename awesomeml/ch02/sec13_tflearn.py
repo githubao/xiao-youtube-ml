@@ -37,8 +37,8 @@ def run():
 
     model = tflearn.DNN(convnet)
 
-    # model.fit({'inputs': X}, {'target': Y}, n_epoch=10, validation_set=({'inputs': test_x}, {'target': test_y}),
-    #           snapshot_step=500, show_metric=True, run_id='mnist')
+    model.fit({'inputs': X}, {'target': Y}, n_epoch=10, validation_set=({'inputs': test_x}, {'target': test_y}),
+              snapshot_step=500, show_metric=True, run_id='mnist')
     #
     # model.save('tflearncnn.model')
 
