@@ -6,3 +6,4 @@
 - chinking(去掉词语)
 - named entity recognition
 - lemmatizing(词形还原)
+- wordnet(同义词-反义词)
