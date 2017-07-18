@@ -13,6 +13,6 @@ youtube ml src code from list https://www.youtube.com/playlist?list=PLKLrLiXLSmX
 5. [done] [Machine Learning with Text in scikit-learn (PyCon 2016)](https://www.youtube.com/watch?v=ZiKMIuYidY0)
 7. [pass] [Machine Learning with Python](https://www.youtube.com/playlist?list=PL-XeOa5hMEYz7xMckkUL8w2EKzM3TDrON)
 11. [pass] [Machine Learning with Text in scikit-learn (PyData DC 2016)](https://www.youtube.com/watch?v=vTaxdJ6VYWE&index=11&list=PLKLrLiXLSmXFvfxsp99I9kaO4fIRH3_WS)
-22. [undo] [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL)
-32. [undo] [Introduction to Machine Learning on Apache Spark MLlib](https://www.youtube.com/watch?v=qKYpMPPL-fo)
+22. [done] [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL)
+32. [done] [Introduction to Machine Learning on Apache Spark MLlib](https://www.youtube.com/watch?v=qKYpMPPL-fo)
 41. pass
